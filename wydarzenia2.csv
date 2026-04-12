@@ -1,0 +1,28 @@
+Typ;Nazwa;Foto;Warunek(Technologie);Warunek(Finanse);Warunek(Surowce);Warunek(Przemysł);Warunek(Przegrzany);Warunek(Nieprzegrzany);Warunek(Słabość);Warunek(Stabilność);Warunek(Sprzedaż);Warunek(Kupno);Warunek(Najtańszy);Warunek(Najdroższy);Efekt1(Technologie);Efekt1(Finanse);Efekt1(Surowce);Efekt1(Przemysł);Efekt1(Najtańszy);Efekt1(Najdroższy);Efekt1(Przegrzany);Efekt1(Nieprzegrzany);Efekt1(Słabość);Efekt1(Stabilność);Efekt1(RuchCenaGóra);Efekt1(RuchCenaDół);Efekt1(SiłaKupna);Efekt1(SiłaSprzedaży);Efekt1(Obsuwa);Efekt2(Technologie);Efekt2(Finanse);Efekt2(Surowce);Efekt2(Przemysł);Efekt2(Najtańszy);Efekt2(Najdroższy);Efekt2(Przegrzany);Efekt2(Nieprzegrzany);Efekt2(Słabość);Efekt2(Stabilność);Efekt2(RuchCenaGóra);Efekt2(RuchCenaDół);Efekt2(SiłaKupna);Efekt2(SiłaSprzedaży);Efekt2(Obsuwa)
+Wydarzenie;Recesja;panika.png;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Ożywienie;hossa.png;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Ucieczka do stabilnych;hossa.png;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Kupowanie dołka;hossa.png;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0
+Wydarzenie;Panika na szczytach;panika.png;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;1
+Wydarzenie;Odbicie techniczne;hossa.png;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Pogoń za trendem;hossa.png;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Napływ kapitału;hossa.png;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Szeroka wyprzedaż;panika.png;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Łapanie spadającego noża;panika.png;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Brak popytu;panika.png;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Fałszywe odbicie;panika.png;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;1
+Wydarzenie;Cyfrowy entuzjazm;hossa.png;1;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Mania AI;hossa.png;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Bańka technologiczna pęka;panika.png;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;1
+Wydarzenie;Korekta wzrostówek;panika.png;1;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Tanie finansowanie;hossa.png;0;1;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Szerokie spready;panika.png;0;1;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Kryzys zaufania;panika.png;0;1;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1
+Wydarzenie;Rajd surowcowy;hossa.png;0;0;1;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Łapanie dna na surowcach;hossa.png;0;0;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0
+Wydarzenie;Nadpodaż surowców;panika.png;0;0;1;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Kapitulacja na surowcach;panika.png;0;0;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1
+Wydarzenie;Boom zamówień;hossa.png;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Boom inwestycyjny;hossa.png;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Zakłócenia dostaw;panika.png;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;1
+Wydarzenie;Korekta przemysłowa;panika.png;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0

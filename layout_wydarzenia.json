@@ -1,0 +1,324 @@
+{
+  "canvas": [1024, 1536],
+
+  "type_key": "Typ",
+  "type_map": {
+    "event": ["Wydarzenie"]
+  },
+
+  "backgrounds": {
+    "event": "bg_wydarzenie.png"
+  },
+
+  "assets": {
+    "resources": {
+      "Warunek(Przegrzany)": "events/cond_overheated.png",
+      "Warunek(Nieprzegrzany)": "events/cond_cool.png",
+      "Warunek(Słabość)": "events/cond_weak.png",
+      "Warunek(Stabilność)": "events/cond_stable.png",
+      "Warunek(Sprzedaż)": "events/eff_sell.png",
+      "Warunek(Kupno)": "events/eff_buy.png",
+      "Warunek(Najtańszy)": "events/eff_cheapest.png",
+      "Warunek(Najdroższy)": "events/eff_expensive.png"
+    },
+
+    "bottom_icons_all": {
+      "Warunek(WszystkieSektory)": "events/all_sectors.png"
+    },
+
+    "bottom_icons_single": {
+      "Warunek(Technologie)": "events/tech.png",
+      "Warunek(Finanse)": "events/finanse.png",
+      "Warunek(Surowce)": "events/surowce.png",
+      "Warunek(Przemysł)": "events/przemysl.png"
+    },
+
+    "effect1_bottom_all": {
+      "Efekt1(WszystkieSektory)": "events/all_sectors.png"
+    },
+
+    "effect1_bottom_single": {
+      "Efekt1(Technologie)": "events/tech.png",
+      "Efekt1(Finanse)": "events/finanse.png",
+      "Efekt1(Surowce)": "events/surowce.png",
+      "Efekt1(Przemysł)": "events/przemysl.png"
+    },
+
+    "effect1_types": {
+      "Efekt1(RuchCenaGóra)": "events/eff_up.png",
+      "Efekt1(RuchCenaDół)": "events/eff_down.png",
+      "Efekt1(SiłaKupna)": "events/eff_buy.png",
+      "Efekt1(SiłaSprzedaży)": "events/eff_sell.png",
+      "Efekt1(Obsuwa)": "events/eff_wallet_down.png"
+    },
+
+    "effect2_bottom_all": {
+      "Efekt2(WszystkieSektory)": "events/all_sectors.png"
+    },
+
+    "effect2_bottom_single": {
+      "Efekt2(Technologie)": "events/tech.png",
+      "Efekt2(Finanse)": "events/finanse.png",
+      "Efekt2(Surowce)": "events/surowce.png",
+      "Efekt2(Przemysł)": "events/przemysl.png"
+    },
+
+    "effect2_types": {
+      "Efekt2(RuchCenaGóra)": "events/eff_up.png",
+      "Efekt2(RuchCenaDół)": "events/eff_down.png",
+      "Efekt2(SiłaKupna)": "events/eff_buy.png",
+      "Efekt2(SiłaSprzedaży)": "events/eff_sell.png",
+      "Efekt2(Obsuwa)": "events/eff_wallet_down.png"
+    }
+  },
+
+  "place": {
+    "photo": {
+      "key": "Foto",
+      "at": { "x": 300, "y": 520 },
+      "size": { "w": 520, "h": 220 },
+      "mode": "contain",
+      "radius": 24
+    },
+
+    "icon_rows": [
+      {
+        "assets_group": "bottom_icons_all",
+        "keys": [
+          "Warunek(WszystkieSektory)"
+        ],
+        "at": { "x": 300, "y": 150 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 260, "h": 260 },
+        "gap_x": 18,
+        "row_gap": 18,
+        "max_cols": 1
+      },
+      {
+        "assets_group": "bottom_icons_single",
+        "keys": [
+          "Warunek(Technologie)",
+          "Warunek(Finanse)",
+          "Warunek(Surowce)",
+          "Warunek(Przemysł)"
+        ],
+        "at": { "x": 350, "y": 190 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 140, "h": 180 },
+        "gap_x": 18,
+        "row_gap": 18,
+        "max_cols": 4
+      },
+      {
+        "assets_group": "resources",
+        "keys": [
+          "Warunek(Przegrzany)",
+          "Warunek(Nieprzegrzany)",
+          "Warunek(Słabość)",
+          "Warunek(Stabilność)",
+          "Warunek(Sprzedaż)",
+          "Warunek(Kupno)",
+          "Warunek(Najtańszy)",
+          "Warunek(Najdroższy)"
+        ],
+        "at": { "x": 650, "y": 190 },
+        "flow": "rows",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 140, "h": 180 },
+        "gap_x": 10,
+        "row_gap": 14,
+        "value_label": {
+          "show_when": "nonzero",
+          "font": "DejaVuSans-Bold.ttf",
+          "size": 50,
+          "color": "#FFFFFF",
+          "stroke": 2,
+          "stroke_color": "#000000",
+          "badge_fill": "#111111",
+          "badge_outline": "#FFFFFF",
+          "outline_width": 2,
+          "radius": 24,
+          "padding_x": 10,
+          "padding_y": 4,
+          "offset_x": 140,
+          "offset_y": 180
+        }
+      },
+
+      {
+        "assets_group": "effect1_bottom_all",
+        "keys": [
+          "Efekt1(WszystkieSektory)"
+        ],
+        "at": { "x": 300, "y": 1160 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 200, "h": 200 },
+        "gap_x": 18,
+        "row_gap": 18,
+        "max_cols": 1
+      },
+      {
+        "assets_group": "effect1_bottom_single",
+        "keys": [
+          "Efekt1(Technologie)",
+          "Efekt1(Finanse)",
+          "Efekt1(Surowce)",
+          "Efekt1(Przemysł)"
+        ],
+        "at": { "x": 350, "y": 1200 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 110, "h": 140 },
+        "gap_x": 12,
+        "row_gap": 12,
+        "max_cols": 4
+      },
+      {
+        "assets_group": "effect1_types",
+        "keys": [
+          "Efekt1(RuchCenaGóra)",
+          "Efekt1(RuchCenaDół)",
+          "Efekt1(SiłaKupna)",
+          "Efekt1(SiłaSprzedaży)",
+          "Efekt1(Obsuwa)"
+        ],
+        "at": { "x": 670, "y": 980 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 160, "h": 160 },
+        "gap_x": 10,
+        "row_gap": 10,
+        "max_cols": 1,
+        "value_label": {
+          "show_when": "nonzero",
+          "font": "DejaVuSans-Bold.ttf",
+          "size": 44,
+          "color": "#FFFFFF",
+          "stroke": 2,
+          "stroke_color": "#000000",
+          "badge_fill": "#111111",
+          "badge_outline": "#FFFFFF",
+          "outline_width": 2,
+          "radius": 22,
+          "padding_x": 10,
+          "padding_y": 4,
+          "offset_x": 145,
+          "offset_y": 150
+        }
+      },
+
+      {
+        "assets_group": "effect2_bottom_all",
+        "keys": [
+          "Efekt2(WszystkieSektory)"
+        ],
+        "at": { "x": 170, "y": 1190 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 170, "h": 170 },
+        "gap_x": 18,
+        "row_gap": 18,
+        "max_cols": 1
+      },
+      {
+        "assets_group": "effect2_bottom_single",
+        "keys": [
+          "Efekt2(Technologie)",
+          "Efekt2(Finanse)",
+          "Efekt2(Surowce)",
+          "Efekt2(Przemysł)"
+        ],
+        "at": { "x": 190, "y": 1205 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 110, "h": 140 },
+        "gap_x": 12,
+        "row_gap": 12,
+        "max_cols": 4
+      },
+      {
+        "assets_group": "effect2_types",
+        "keys": [
+          "Efekt2(RuchCenaGóra)",
+          "Efekt2(RuchCenaDół)",
+          "Efekt2(SiłaKupna)",
+          "Efekt2(SiłaSprzedaży)",
+          "Efekt2(Obsuwa)"
+        ],
+        "at": { "x": 670, "y": 1190 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 160, "h": 160 },
+        "gap_x": 10,
+        "row_gap": 10,
+        "max_cols": 1,
+        "value_label": {
+          "show_when": "nonzero",
+          "font": "DejaVuSans-Bold.ttf",
+          "size": 44,
+          "color": "#FFFFFF",
+          "stroke": 2,
+          "stroke_color": "#000000",
+          "badge_fill": "#111111",
+          "badge_outline": "#FFFFFF",
+          "outline_width": 2,
+          "radius": 22,
+          "padding_x": 10,
+          "padding_y": 4,
+          "offset_x": 145,
+          "offset_y": 150
+        }
+      }
+    ]
+  },
+
+  "texts": [
+  {
+    "value": "Warunek",
+    "xy": [280, 120],
+    "max_width": 600,
+    "align": "center",
+    "font": "DejaVuSansCondensed-Bold.ttf",
+    "size": 48,
+    "color": "#000000",
+    "stroke": 1,
+    "stroke_color": "#FFFFFF"
+  },
+  {
+    "value": "Efekt",
+    "xy": [280, 1000],
+    "max_width": 600,
+    "align": "center",
+    "font": "DejaVuSansCondensed-Bold.ttf",
+    "size": 48,
+    "color": "#000000",
+    "stroke": 1,
+    "stroke_color": "#FFFFFF"
+  },
+    {
+      "key": "Nazwa",
+      "xy": [280, 780],
+      "max_width": 600,
+      "max_lines": 2,
+      "align": "center",
+      "font": "DejaVuSansCondensed-Bold.ttf",
+      "size": 76,
+      "color": "#000000",
+      "stroke": 1,
+      "stroke_color": "#FFFFFF",
+      "line_height": 86
+    }
+  ]
+}

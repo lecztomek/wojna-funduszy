@@ -1,0 +1,302 @@
+# Skrót rundy
+
+1. Odkryj bieżące wydarzenie i utrzymaj 1 niejawne wydarzenie na przyszłą rundę.
+2. Gracze ustawiają 1. akcję.
+3. Gracze ustawiają 2. akcję w odwrotnej kolejności.
+4. Rozpatrz Podgląd, Uspokój klienta, Podbierz klienta, Nagonkę.
+5. Rozpatrz Kup.
+6. Rozpatrz wydarzenie.
+7. Policz siłę sektorów.
+8. Ustal ranking sektorów według: siła → cena → stała kolejność.
+9. Zmień ceny sektorów.
+10. Zaktualizuj wynik pozycji w portfelach.
+11. Rozlicz pozycje oznaczone do sprzedaży.
+12. Przesuń piony graczy na torze wyniku końcowego zgodnie z monetyzacją.
+13. Oddaj sprzedane bloczki sektorów.
+14. Przekaż znacznik pierwszego gracza.
+
+
+# Kolejność rundy - szczegóły
+
+## 1. Odkrycie wydarzenia
+
+Na początku rundy na torze wydarzeń zawsze znajdują się:
+
+* **1 wydarzenie odkryte** — to wydarzenie bieżącej rundy,
+* **1 wydarzenie niejawne** — to wydarzenie przyszłej rundy.
+
+Na początku nowej rundy niejawne wydarzenie z poprzedniej rundy staje się wydarzeniem odkrytym, a na jego miejsce dokładane jest nowe wydarzenie niejawne.
+
+Dzięki temu gracze zawsze wiedzą, co działa **teraz**, i widzą, że coś już czeka **na następną rundę**, ale nie znają jego treści, chyba że skorzystają z akcji **Podgląd**.
+
+---
+
+## 2. Wybór 1. akcji
+
+Gracze kolejno, zaczynając od pierwszego gracza, **jawnie ustawiają swoją 1. akcję** na planszetkach.
+
+Akcją może być:
+
+* **Kup**
+* **Sprzedaj**
+* **Pass**
+* **Podgląd**
+* **Nagonka**
+* **Podbierz klienta**
+* **Uspokój klienta**
+
+Jeśli akcja wymaga wskazania celu, gracz od razu wskazuje odpowiedni sektor, pozycję albo gracza.
+
+---
+
+## 3. Wybór 2. akcji
+
+Następnie gracze ustawiają **2. akcję**, ale w odwrotnej kolejności, czyli zaczynając od ostatniego gracza i kończąc na pierwszym.
+
+Dzięki temu kolejność wyboru działa w układzie snake:
+
+* najpierw 1 → 2 → 3 → 4,
+* potem 4 → 3 → 2 → 1.
+
+To częściowo równoważy przewagę pozycji startowej.
+
+---
+
+## 4. Rozpatrzenie akcji specjalnych
+
+Po ustawieniu wszystkich akcji rozpatruje się akcje specjalne w ustalonej kolejności.
+
+### Podgląd
+
+Gracz podejrzyj 1 niejawne wydarzenie, które ma wejść do gry w przyszłej rundzie.
+Nie pokazuje go innym graczom.
+
+### Uspokój klienta
+
+Gracz zamienia 1 swojego niezadowolonego klienta na zadowolonego.
+
+### Podbierz klienta
+
+Gracz przejmuje od wybranego przeciwnika 1 niezadowolonego klienta.
+
+### Nagonka
+
+Gracz wybiera 1 sektor.
+Wybrany sektor otrzymuje w tej rundzie **-1 siły**.
+
+---
+
+## 5. Kup
+
+Następnie rozpatruje się wszystkie akcje **Kup**.
+
+Gracz, który wybrał akcję **Kup**:
+
+* bierze **1 bloczek wybranego sektora**,
+* umieszcza go w swoim portfelu na wolnym slocie.
+
+Jeśli gracz nie ma wolnego slotu, nie może wykonać tej akcji.
+
+Kupno pozycji wpływa również na **siłę sektora** w tej rundzie.
+
+Każda akcja **Kup** daje wybranemu sektorowi **dodatni punkt siły**.
+
+Innymi słowy:
+
+* kupowanie sektora wzmacnia jego pozycję w rundzie,
+* pokazuje napływ kapitału,
+* i zwiększa jego szansę na wyższe miejsce w rankingu.
+
+---
+
+## 6. Rozpatrzenie wydarzenia
+
+Po akcjach graczy rozpatrywane jest odkryte wydarzenie rundy.
+
+Wydarzenie może wpływać na:
+
+* siłę jednego lub kilku sektorów,
+* cenę sektorów,
+* wynik pozycji w portfelach,
+* warunki sprzedaży lub monetyzacji.
+
+Wydarzenie działa **po ustawieniu i rozpatrzeniu akcji graczy**, więc można pod nie grać, ale nie wszystko da się już odwrócić.
+
+---
+
+## 7. Policzenie siły sektorów
+
+Teraz ustala się **siłę każdego sektora**.
+
+Siła sektora pokazuje, jak mocny jest dany sektor w tej rundzie względem pozostałych.
+
+Na siłę sektora wpływają przede wszystkim:
+
+* **Kup** — daje sektorowi **dodatnie punkty siły**,
+* **Sprzedaj** — daje sektorowi **ujemne punkty siły**,
+* **Nagonka** — daje sektorowi **ujemne punkty siły**,
+* **wydarzenie** — może dodawać lub odejmować siłę.
+
+Najprostszy zapis tej zasady może brzmieć tak:
+
+### Źródła siły sektora
+
+* każde **Kup** w sektorze: **+1 siły**
+* każde **Sprzedaj** w sektorze: **-1 siły**
+* każda **Nagonka** w sektorze: **-1 siły**
+* modyfikatory wydarzenia: zgodnie z tekstem wydarzenia
+
+Na końcu tego etapu każdy sektor ma swoją łączną wartość siły na tę rundę.
+
+---
+
+## 8. Ranking sektorów
+
+Po policzeniu siły tworzy się ranking sektorów od najlepszego do najgorszego.
+
+Najpierw porównuje się **siłę sektorów**:
+
+* wyżej jest sektor o większej sile,
+* niżej jest sektor o mniejszej sile.
+
+Jeśli dwa sektory mają taką samą siłę, stosuje się tie-breakery.
+
+### Zasady sortowania sektorów
+
+Sektory porównuje się kolejno według:
+
+1. **siły sektora**
+2. **ceny sektora**
+3. **stałej kolejności sektorów**
+
+### Co to oznacza w praktyce
+
+* sektor z wyższą siłą jest wyżej,
+* jeśli siła jest równa, wyżej jest sektor z **wyższą ceną**,
+* jeśli siła i cena są równe, rozstrzyga **stała kolejność sektorów**.
+
+### Stała kolejność sektorów
+
+Powinna być zapisana raz i obowiązywać przez całą grę, na przykład:
+
+**Technologie → Finanse → Surowce → Przemysł**
+
+Ta kolejność służy tylko do rozstrzygania pełnych remisów.
+
+### Przykład
+
+* Technologie: siła 2, cena 6
+* Finanse: siła 2, cena 5
+
+Technologie są wyżej, bo przy remisie siły mają wyższą cenę.
+
+Drugi przykład:
+
+* Surowce: siła 1, cena 4
+* Przemysł: siła 1, cena 4
+
+Wyżej jest sektor, który stoi wyżej w stałej kolejności.
+
+---
+
+## 9. Zmiana cen sektorów
+
+Po ustaleniu rankingu zmieniają się ceny sektorów.
+
+Podstawowa zasada jest taka:
+
+* sektor na **1. miejscu** zwiększa cenę,
+* sektor na **ostatnim miejscu** obniża cenę.
+
+Jeśli wydarzenie mówi inaczej, jego efekt również wpływa na ceny.
+
+Cena sektora nigdy nie może spaść poniżej **1** ani wzrosnąć powyżej **9**.
+
+---
+
+## 10. Aktualizacja pozycji w portfelach
+
+Każda pozycja znajdująca się w portfelu otrzymuje zmianę wyniku zależną od miejsca swojego sektora w rankingu.
+
+Standardowo:
+
+* sektor na **1. miejscu** daje pozycjom **+2 wyniku**
+* sektor na **2. miejscu** daje pozycjom **+1 wyniku**
+* sektor na **3. miejscu** daje pozycjom **0**
+* sektor na **4. miejscu** daje pozycjom **-1 wyniku**
+
+Do tego mogą dojść modyfikatory z wydarzenia.
+
+Wynik każdej pozycji zaznacza się na planszy gracza przy odpowiednim slocie portfela.
+
+To ważne:
+**wynik pozycji jest przechowywany na planszy gracza**, a nie na torze wyniku końcowego.
+
+---
+
+## 11. Oznaczenie pozycji do sprzedaży
+
+W tej rundzie nie ma osobnego etapu wykonywania sprzedaży jako natychmiastowego efektu.
+
+Akcja **Sprzedaj** działa wcześniej tylko jako:
+
+* decyzja o wyjściu z pozycji,
+* i jednocześnie jako **ujemny wpływ na siłę sektora**.
+
+Pozycja wskazana akcją **Sprzedaj**:
+
+* nadal pozostaje w portfelu przez całą rundę,
+* normalnie otrzymuje wynik z rankingu sektora,
+* zostanie sprzedana dopiero w etapie monetyzacji.
+
+Czyli gracz najpierw deklaruje, że wychodzi z pozycji, ale samą sprzedaż rozlicza dopiero po wyniku rundy.
+
+---
+
+## 12. Monetyzacja wyniku przez klientów
+
+Teraz gracze, którzy oznaczyli pozycje do sprzedaży, sprzedają je i zamieniają ich wynik na punkty zwycięstwa.
+
+Podczas tego etapu gracz:
+
+1. wybiera pozycję oznaczoną do sprzedaży,
+2. sprawdza jej aktualny wynik zapisany na planszy,
+3. wykorzystuje klientów, aby zdobyć punkty,
+4. przesuwa swój pion na **torze wyniku końcowego**,
+5. po zakończeniu sprzedaży oddaje bloczek sektora.
+
+### Klienci podczas monetyzacji
+
+* **zadowolony klient** może dać **1 punkt**
+* **zadowolony klient** może zostać zmieniony na **niezadowolonego** i wtedy daje **2 punkty**
+* **niezadowolony klient** daje **1 punkt**
+
+To oznacza, że zadowolony klient może być użyty:
+
+* zachowawczo, za 1 punkt,
+* albo agresywnie, za 2 punkty kosztem pogorszenia relacji.
+
+### Ujemny wynik pozycji
+
+Jeśli sprzedawana pozycja ma **ujemny wynik**, gracz:
+
+* **nie cofa** swojego pionu na torze wyniku końcowego,
+* zamiast tego **1 jego klient staje się niezadowolony**.
+
+Czyli strata boli przez pogorszenie bazy klientów, a nie przez cofanie punktów zwycięstwa.
+
+---
+
+## 13. Gracze sprzedający pozycje oddają bloczki sektorów
+
+Po zakończeniu monetyzacji wszyscy gracze, którzy sprzedali pozycje w tej rundzie, oddają odpowiednie bloczki sektorów ze swoich portfeli do wspólnej puli.
+
+Sprzedana pozycja przestaje zajmować slot portfela.
+
+---
+
+## 14. Nowy pierwszy gracz
+
+Na koniec rundy znacznik pierwszego gracza przechodzi dalej zgodnie z ustaloną zasadą i rozpoczyna się kolejna runda.
+
+---

@@ -1,0 +1,28 @@
+Typ;Nazwa;Foto;Warunek(WszystkieSektory);Warunek(Technologie);Warunek(Finanse);Warunek(Surowce);Warunek(Przemysł);Warunek(Przegrzany);Warunek(Nieprzegrzany);Warunek(Słabość);Warunek(Stabilność);Warunek(Sprzedaż);Warunek(Kupno);Warunek(Najtańszy);Warunek(Najdroższy);Efekt1(WszystkieSektory);Efekt1(Technologie);Efekt1(Finanse);Efekt1(Surowce);Efekt1(Przemysł);Efekt1(RuchCenaGóra);Efekt1(RuchCenaDół);Efekt1(SiłaKupna);Efekt1(SiłaSprzedaży);Efekt1(Obsuwa);Efekt2(WszystkieSektory);Efekt2(Technologie);Efekt2(Finanse);Efekt2(Surowce);Efekt2(Przemysł);Efekt2(RuchCenaGóra);Efekt2(RuchCenaDół);Efekt2(SiłaKupna);Efekt2(SiłaSprzedaży);Efekt2(Obsuwa)
+Wydarzenie;Recesja;panika.png;1;0;0;0;0;3;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1
+Wydarzenie;Ożywienie;hossa.png;1;0;0;0;0;0;0;2;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Ucieczka do jakości;panika.png;1;0;0;0;0;0;0;0;0;2;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Kupowanie dołka;hossa.png;1;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;1;0;0;0;0
+Wydarzenie;Panika na szczytach;panika.png;1;0;0;0;0;2;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;1;0;0;0
+Wydarzenie;Krach płynności;panika.png;1;0;0;0;0;0;0;0;0;3;0;0;0;1;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1
+Wydarzenie;Awersja do ryzyka;panika.png;1;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1
+Wydarzenie;Rotacja do tanich;hossa.png;1;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;1;0;0;0;0
+Wydarzenie;Premia za jakość;hossa.png;1;0;0;0;0;0;0;0;2;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Realizacja zysków;panika.png;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;1;0;0;0
+Wydarzenie;Odbicie techniczne;hossa.png;1;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;2;0;0;1;0;0;0;0;1;0;0;0;0
+Wydarzenie;Pogoń za trendem;hossa.png;1;0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;1;0;0;0;0
+Wydarzenie;Napływ kapitału;hossa.png;1;0;0;0;0;0;0;0;0;0;2;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Selekcja jakości;hossa.png;1;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;1;0;0;0;0
+Wydarzenie;Szeroka wyprzedaż;panika.png;1;0;0;0;0;0;0;0;0;2;0;0;0;1;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1
+Wydarzenie;Cyfrowy entuzjazm;hossa.png;0;1;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Mania AI;hossa.png;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;2;0;0;0;1;0;0;0;1;0;0;0;0
+Wydarzenie;Korekta technologiczna;panika.png;0;1;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;1;0;0;0
+Wydarzenie;Tanie finansowanie;hossa.png;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Szerokie spready;panika.png;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Kryzys zaufania;panika.png;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;1;0;0;0;1;0;0;0
+Wydarzenie;Rajd surowcowy;hossa.png;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Łapanie dna na surowcach;hossa.png;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;0;2;0;0;0;0;0;1;0;1;0;0;0;0
+Wydarzenie;Nadpodaż surowców;panika.png;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1;0;0;1;0;0;0
+Wydarzenie;Boom zamówień;hossa.png;0;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
+Wydarzenie;Boom inwestycyjny;hossa.png;0;0;0;0;1;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;1;1;0;0;0;0
+Wydarzenie;Zakłócenia dostaw;panika.png;0;0;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;1;0;0;0;0;1

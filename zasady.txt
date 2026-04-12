@@ -1,0 +1,201 @@
+Jasne — poniżej masz **krótki, spójny opis gry** z klimatem i zasadami.
+
+# Opis gry
+
+To planszówka o zarządzaniu funduszami inwestycyjnymi.
+Gracze wcielają się w agresywnych zarządzających, którzy próbują przewidzieć ruch rynku, wejść w odpowiednie sektory, sprzedać w dobrym momencie i zamienić wynik inwestycyjny na punkty dzięki klientom.
+
+To nie jest symulator giełdy ani liczenie procentów.
+To gra o:
+
+* wyczuciu trendu,
+* graniu pod wydarzenia rynkowe,
+* blefie i czytaniu stołu,
+* odpowiednim momencie wejścia i wyjścia,
+* oraz cynicznym „sprzedawaniu wyniku” klientom.
+
+## Klimat gry
+
+Klimat gry to bardziej **wojna funduszy** niż czysta ekonomia.
+Nie chodzi tylko o to, żeby dobrze „inwestować”, ale żeby:
+
+* przewidzieć, który sektor będzie mocny w danej rundzie,
+* zobaczyć, gdzie siedzi konkurencja,
+* zdecydować, czy jeszcze trzymać pozycję, czy już ją zrzucić,
+* i wycisnąć z klientów jak najwięcej punktów, zanim zrobi to ktoś inny.
+
+Ważne są też nastroje rynku: recesja, panika, odbicie, rotacja kapitału, ucieczka do jakości czy sektorowe mody.
+Gra ma klimat rynku napędzanego narracją, strachem, chciwością i timingiem.
+
+## Główny cel
+
+Gra trwa określoną liczbę rund.
+Wygrywa gracz, który na końcu ma najwięcej punktów.
+
+Punkty zdobywa się nie za samo posiadanie dobrych pozycji, ale za cały proces:
+
+1. wejście w odpowiedni sektor,
+2. zbudowanie wyniku,
+3. sprzedaż pozycji we właściwym momencie,
+4. zmonetyzowanie wyniku przez klientów.
+
+Można więc mieć świetny portfel „na papierze”, a mimo to przegrać, jeśli źle sprzeda się pozycje albo nie ma czym ich spieniężyć.
+
+## Sektory rynku
+
+W grze są 4 sektory:
+
+* **Technologie**
+* **Finanse**
+* **Surowce**
+* **Przemysł**
+
+Każdy sektor ma własną cenę i bierze udział we wspólnym rankingu rundy.
+
+## Ceny i strefy rynku
+
+Każdy sektor ma cenę od **1 do 9**.
+
+Zakres cen dzieli się na 3 strefy:
+
+* **1–3** – słabość
+* **4–6** – stabilność
+* **7–9** – przegrzanie
+
+Cena nie oznacza dosłownie kursu akcji, tylko raczej temperaturę sektora.
+Ma znaczenie dla wydarzeń, interpretacji rynku i niektórych efektów kart.
+
+## Portfel gracza
+
+Każdy gracz ma **4 sloty portfela**.
+W każdym slocie może trzymać jedną pozycję w wybranym sektorze.
+
+Portfele są **jawne**, więc wszyscy widzą:
+
+* kto siedzi w jakim sektorze,
+* kto może zaraz sprzedawać,
+* kto korzysta na sile konkretnego sektora.
+
+To bardzo wzmacnia blef, przewidywanie i interakcję.
+
+## Klienci
+
+Każdy gracz ma klientów, którzy służą do punktowania.
+
+Klienci mogą być:
+
+* **zadowoleni**
+* **niezadowoleni**
+
+Sam dobry wynik funduszu nie daje jeszcze punktów.
+Trzeba go dopiero „sprzedać klientom”, czyli zamienić na realne punkty zwycięstwa.
+
+To tworzy ważne decyzje:
+
+* wycisnąć klientów mocno i zrobić duży skok punktowy,
+* grać ostrożniej i zachować bazę klientów na później,
+* odbudowywać zaufanie,
+* albo próbować przejmować klientów rywalom.
+
+## Wydarzenia
+
+Na stole leży tor wydarzeń.
+Część wydarzeń jest jawna, część ukryta, więc gracze wiedzą trochę o tym, co dzieje się teraz i co może nadejść za chwilę, ale nie znają całego przyszłego rynku.
+
+Wydarzenia wpływają na:
+
+* siłę sektorów,
+* ruch cen,
+* opłacalność kupna i sprzedaży,
+* albo obsuę pozycji w portfelu.
+
+Przykładowe klimaty wydarzeń to:
+
+* recesja,
+* ożywienie,
+* krach płynności,
+* panika na szczytach,
+* rotacja do tanich,
+* cyfrowy entuzjazm,
+* rajd surowcowy,
+* kryzys zaufania,
+* zakłócenia dostaw.
+
+## Akcje graczy
+
+W każdej rundzie gracze wybierają po **2 akcje**.
+
+Podstawowe akcje są proste:
+
+* **Kup**
+* **Sprzedaj**
+* **Pass**
+
+Dzięki temu rdzeń gry pozostaje czytelny.
+
+Do tego dochodzą **akcje specjalne**, których każdy gracz ma ograniczoną liczbę na całą grę.
+Zajmują one miejsce jednej z dwóch akcji w rundzie i dają mocniejsze, wyjątkowe efekty, np.:
+
+* podejrzenie wydarzenia,
+* wzmocnienie lub osłabienie sektora,
+* ochrona pozycji,
+* podbieranie klienta,
+* uspokajanie klienta,
+* zagranie pod odbicie,
+* przyspieszenie sprzedaży.
+
+## Jak wygląda runda
+
+Schemat rundy jest prosty:
+
+1. Rozpatrywane jest bieżące wydarzenie.
+2. Każdy gracz wybiera zakrycie 2 akcje.
+3. Wszyscy odsłaniają akcje jednocześnie.
+4. Liczona jest siła każdego sektora.
+5. Powstaje ranking sektorów od najlepszego do najgorszego.
+6. Pozycje w sektorach dostają wynik za rundę.
+7. Ceny sektorów się zmieniają.
+8. Oznaczone pozycje są sprzedawane.
+9. Sprzedany wynik można zamienić na punkty dzięki klientom.
+10. Następują zmiany w klientach.
+
+## Serce gry: ranking sektorów
+
+Najważniejsza mechanika polega na tym, że w każdej rundzie liczy się nie tyle dokładna cena, co odpowiedź na pytanie:
+
+**który sektor będzie najmocniejszy teraz?**
+
+Standardowo sektory dostają:
+
+* 1. miejsce → **+2**
+* 2. miejsce → **+1**
+* 3. miejsce → **0**
+* 4. miejsce → **-1**
+
+Każda pozycja w danym sektorze zbiera taki wynik.
+
+To sprawia, że gra jest bardziej o:
+
+* momentum,
+* przewidywaniu ruchu rynku,
+* ustawianiu się pod wydarzenia,
+* czytaniu przeciwników,
+* i dobrym timingu.
+
+## Skąd bierze się interakcja
+
+Interakcja w grze wynika z kilku warstw naraz:
+
+* jawnych portfeli,
+* zakrytych akcji,
+* wspólnego rankingu sektorów,
+* walki o klientów,
+* oraz rynku, który cały czas się zmienia.
+
+Nie jest to gra o samotnym budowaniu silniczka, tylko o podgryzaniu innych, czytaniu ich zamiarów i podejmowaniu decyzji w odpowiednim momencie.
+
+## Charakter gry w jednym zdaniu
+
+To średnio ciężka gra ekonomiczno-taktyczna o funduszach inwestycyjnych, przewidywaniu rynku, ukrytych decyzjach i monetyzowaniu wyniku przez klientów, w której wygrywa nie ten, kto najlepiej „inwestuje”, ale ten, kto najlepiej wyczuje moment, sprzeda i skonsumuje przewagę.
+
+Jeśli chcesz, mogę Ci z tego od razu zrobić jeszcze **krótszą wersję pitchową**, taką na pół strony do pokazania innym.
