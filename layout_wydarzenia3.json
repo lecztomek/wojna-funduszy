@@ -1,0 +1,151 @@
+{
+  "canvas": [1024, 1536],
+
+  "type_key": "TłoKod",
+  "theme_default": "jasny",
+
+  "type_map": {
+    "przegrzany_jasne": ["przegrzany_jasne"],
+    "przegrzany_ciemne": ["przegrzany_ciemne"],
+
+    "slabosc_jasne": ["slabosc_jasne"],
+    "slabosc_ciemne": ["slabosc_ciemne"],
+
+    "stabilnosc_jasne": ["stabilnosc_jasne"],
+    "stabilnosc_ciemne": ["stabilnosc_ciemne"],
+
+    "najtanszy_jasne": ["najtanszy_jasne"],
+    "najtanszy_ciemne": ["najtanszy_ciemne"],
+
+    "najdrozszy_jasne": ["najdrozszy_jasne"],
+    "najdrozszy_ciemne": ["najdrozszy_ciemne"]
+  },
+
+  "backgrounds": {
+    "przegrzany_jasne": "bg/bg_przegrzany_jasne.png",
+    "przegrzany_ciemne": "bg/bg_przegrzany_ciemne.png",
+
+    "slabosc_jasne": "bg/bg_slabosc_jasne.png",
+    "slabosc_ciemne": "bg/bg_slabosc_ciemne.png",
+
+    "stabilnosc_jasne": "bg/bg_stabilnosc_jasne.png",
+    "stabilnosc_ciemne": "bg/bg_stabilnosc_ciemne.png",
+
+    "najtanszy_jasne": "bg/bg_najtanszy_jasne.png",
+    "najtanszy_ciemne": "bg/bg_najtanszy_ciemne.png",
+
+    "najdrozszy_jasne": "bg/bg_najdrozszy_jasne.png",
+    "najdrozszy_ciemne": "bg/bg_najdrozszy_ciemne.png"
+  },
+
+  "assets": {
+    "sector_icons": {
+      "Sektor(Technologie)": "bg/tech.png",
+      "Sektor(Finanse)": "bg/finanse3.png",
+      "Sektor(Surowce)": "bg/surowce.png",
+      "Sektor(Przemysł)": "bg/przemysl.png"
+    }
+  },
+
+  "place": {
+    "icon_rows": [
+      {
+        "assets_group": "sector_icons",
+        "keys": [
+          "Sektor(Technologie)",
+          "Sektor(Finanse)",
+          "Sektor(Surowce)",
+          "Sektor(Przemysł)"
+        ],
+        "at": { "x": 100, "y": 80 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 150, "h": 150 },
+        "gap_x": 12
+      }
+    ]
+  },
+
+  "texts": [
+	{
+	  "key": "Nazwa",
+	  "xy": [300, 0],
+	  "max_width": 600,
+	  "max_height": 320,
+	  "max_lines": 3,
+	  "align": "left",
+	  "valign": "middle",
+	  "font": "MegiSans.otf",
+	  "size": 82,
+	  "color": {
+		"jasny": "#000000",
+		"ciemny": "#FFFFFF"
+	  },
+	  "stroke": 6,
+	  "stroke_color": {
+		"jasny": "#FFFFFF",
+		"ciemny": "#000000"
+	  },
+	  "line_height": 88
+	},
+	{
+	  "key": "EfektSolo",
+	  "xy": [140, 1150],
+	  "max_width": 744,
+	  "max_lines": 2,
+	  "align": "center",
+	  "font": "MegiSans.otf",
+	  "size": 80,
+	  "color": {
+		"jasny": "#000000",
+		"ciemny": "#FFFFFF"
+	  },
+	  "stroke": 6,
+	  "stroke_color": {
+		"jasny": "#FFFFFF",
+		"ciemny": "#000000"
+	  },
+	  "line_height": 72
+	},
+    {
+      "key": "EfektGora",
+      "xy": [140, 1050],
+      "max_width": 744,
+      "max_lines": 2,
+      "align": "center",
+      "font": "MegiSans.otf",
+      "size": 80,
+      "color": {
+        "jasny": "#000000",
+        "ciemny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "jasny": "#FFFFFF",
+        "ciemny": "#000000"
+      },
+      "line_height": 72
+    },
+
+    {
+      "key": "EfektDol",
+      "xy": [140, 1250],
+      "max_width": 744,
+      "max_lines": 2,
+      "align": "center",
+      "font": "MegiSans.otf",
+      "size": 80,
+      "color": {
+        "jasny": "#000000",
+        "ciemny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "jasny": "#FFFFFF",
+        "ciemny": "#000000"
+      },
+      "line_height": 72
+    }
+  ]
+}

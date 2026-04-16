@@ -1,0 +1,28 @@
+TłoKod;Nazwa;Sektor(Technologie);Sektor(Finanse);Sektor(Surowce);Sektor(Przemysł);EfektSolo;EfektGora;EfektDol
+stabilnosc_ciemne;Recesja;0;0;0;0;;Siła -1;Cena -1
+slabosc_jasne;Ożywienie;0;0;0;0;;Siła +1;Cena +1
+stabilnosc_jasne;Popyt na stabilne;0;0;0;0;Siła +1;;
+najtanszy_jasne;Kupowanie dołka;0;0;0;0;Cena +1;;
+najdrozszy_ciemne;Panika na szczytach;0;0;0;0;;Siła -2;Portfel -1
+slabosc_jasne;Odbicie techniczne;0;0;0;0;Cena +1;;
+stabilnosc_jasne;Pogoń za trendem;0;0;0;0;Siła +1;;
+stabilnosc_jasne;Napływ kapitału;0;0;0;0;Cena +1;;
+najdrozszy_ciemne;Margin call;0;0;0;0;;Cena -1;Portfel -1
+najtanszy_ciemne;Spadający nóż;0;0;0;0;Cena -1;;
+slabosc_ciemne;Brak popytu;0;0;0;0;Siła -1;;
+slabosc_ciemne;Fałszywe odbicie;0;0;0;0;;Cena +1;Portfel -1
+stabilnosc_jasne;Cyfrowy entuzjazm;1;0;0;0;Siła +2;;
+przegrzany_jasne;Mania AI;1;0;0;0;Cena +2;;
+przegrzany_ciemne;Bańka tech pęka;1;0;0;0;;Cena -2;Portfel -1
+najdrozszy_ciemne;Słabnący entuzjazm;1;0;0;0;Siła -2;;
+stabilnosc_jasne;Tanie finansowanie;0;1;0;0;Siła +2;;
+przegrzany_ciemne;Szerokie spready;0;1;0;0;Cena -2;;
+przegrzany_ciemne;Kryzys zaufania;0;1;0;0;;Cena -2;Portfel -1
+stabilnosc_jasne;Rajd surowcowy;0;0;1;0;Cena +1;;
+slabosc_jasne;Łapanie dna na surowcach;0;0;1;0;;Siła +1;Cena +1
+przegrzany_ciemne;Nadpodaż surowców;0;0;1;0;Cena -1;;
+slabosc_ciemne;Kapitulacja na surowcach;0;0;1;0;;Cena -1;Portfel -1
+stabilnosc_jasne;Boom zamówień;0;0;0;1;Siła +2;;
+stabilnosc_jasne;Boom inwestycyjny;0;0;0;1;Cena +1;;
+przegrzany_ciemne;Zakłócenia dostaw;0;0;0;1;;Siła -1;Portfel -1
+najdrozszy_ciemne;Korekta przemysłowa;0;0;0;1;Cena -1;;
