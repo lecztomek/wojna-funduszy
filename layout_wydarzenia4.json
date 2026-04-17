@@ -1,0 +1,169 @@
+{
+  "canvas": [1024, 1536],
+
+  "type_key": "TłoKod",
+  "theme_key": "Motyw",
+  "theme_default": "jasny",
+
+  "type_map": {
+    "tech": ["tech"],
+    "finanse": ["finanse"],
+    "przemysl": ["przemysl"],
+    "surowce": ["surowce"],
+    "all": ["all"]
+  },
+
+  "backgrounds": {
+    "tech": "bg2/tech.jpg",
+    "finanse": "bg2/finanse.jpg",
+    "przemysl": "bg2/przemysl.jpg",
+    "surowce": "bg2/surowce.jpg",
+    "all": "bg2/all.jpg"
+  },
+
+  "assets": {
+    "condition_icons": {
+      "Warunek(Słabość)": "bg2/slabosc.png",
+      "Warunek(Stabilność)": "bg2/stabilnosc.png",
+      "Warunek(Przegrzanie)": "bg2/przegrzanie.png",
+      "Warunek(Najdroższy)": "bg2/najdrozszy.png",
+      "Warunek(Najtańszy)": "bg2/najtanszy.png"
+    },
+    "arrow_icons": {
+      "Strzalka(Gora)": "bg2/strzalka_gruba_gora.png",
+      "Strzalka(Dol)": "bg2/strzalka_gruba_dol.png"
+    },
+    "arrow_icons2": {
+      "Strzalka(Gora)": "bg2/strzalka_gruba_gora.png",
+      "Strzalka(Dol)": "bg2/strzalka_gruba_dol.png"
+    }
+  },
+
+  "place": {
+    "icon_rows": [
+      {
+        "assets_group": "condition_icons",
+        "keys": [
+          "Warunek(Słabość)",
+          "Warunek(Stabilność)",
+          "Warunek(Przegrzanie)",
+          "Warunek(Najdroższy)",
+          "Warunek(Najtańszy)"
+        ],
+        "at": { "x": 170, "y": 600 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 700, "h": 180 },
+        "gap_x": 12
+      },
+      {
+        "assets_group": "arrow_icons",
+        "keys": [
+          "Strzalka(Gora)",
+          "Strzalka(Dol)"
+        ],
+        "at": { "x": 170, "y": 1200 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 100, "h": 100 },
+        "gap_x": 12
+      },
+	  {
+        "assets_group": "arrow_icons2",
+        "keys": [
+          "Strzalka(Gora)",
+          "Strzalka(Dol)"
+        ],
+        "at": { "x": 750, "y": 1200 },
+        "flow": "flat",
+        "show_when": "positive",
+        "repeat_mode": "once",
+        "draw_icon": { "w": 100, "h": 100 },
+        "gap_x": 12
+      }
+    ]
+  },
+
+  "texts": [
+    {
+      "key": "Nazwa",
+      "xy": [160, 50],
+      "max_width": 700,
+      "max_height": 320,
+      "max_lines": 2,
+      "align": "center",
+      "valign": "middle",
+      "font": "MegiSans.otf",
+      "size": 82,
+      "color": {
+        "jasny": "#FFFFFF",
+        "ciemny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "jasny": "#000000",
+        "ciemny": "#000000"
+      },
+      "line_height": 88
+    },
+    {
+      "key": "EfektSolo",
+      "xy": [140, 1200],
+      "max_width": 744,
+      "max_lines": 2,
+      "align": "center",
+      "font": "MegiSans.otf",
+      "size": 80,
+      "color": {
+        "jasny": "#FFFFFF",
+        "ciemny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "jasny": "#000000",
+        "ciemny": "#000000"
+      },
+      "line_height": 72
+    },
+    {
+      "key": "EfektGora",
+      "xy": [140, 1150],
+      "max_width": 744,
+      "max_lines": 2,
+      "align": "center",
+      "font": "MegiSans.otf",
+      "size": 80,
+      "color": {
+        "jasny": "#FFFFFF",
+        "ciemny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "jasny": "#000000",
+        "ciemny": "#000000"
+      },
+      "line_height": 72
+    },
+    {
+      "key": "EfektDol",
+      "xy": [140, 1300],
+      "max_width": 744,
+      "max_lines": 2,
+      "align": "center",
+      "font": "MegiSans.otf",
+      "size": 80,
+      "color": {
+        "jasny": "#FFFFFF",
+        "ciemny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "jasny": "#000000",
+        "ciemny": "#000000"
+      },
+      "line_height": 72
+    }
+  ]
+}

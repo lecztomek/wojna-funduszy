@@ -1,0 +1,28 @@
+TłoKod;Motyw;Nazwa;Warunek(Słabość);Warunek(Stabilność);Warunek(Przegrzanie);Warunek(Najdroższy);Warunek(Najtańszy);Strzalka(Gora);Strzalka(Dol);EfektSolo;EfektGora;EfektDol
+all;ciemny;Recesja;0;1;0;0;0;0;1;;Siła -1;Cena -1
+all;jasny;Ożywienie;1;0;0;0;0;1;0;;Siła +1;Cena +1
+all;jasny;Popyt na stabilne;0;1;0;0;0;1;0;Siła +1;;
+all;jasny;Kupowanie dołka;0;0;0;0;1;1;0;Cena +1;;
+all;ciemny;Panika na szczytach;0;0;0;1;0;0;1;;Siła -2;Portfel -1
+all;jasny;Odbicie techniczne;1;0;0;0;0;1;0;Cena +1;;
+all;jasny;Pogoń za trendem;0;1;0;0;0;1;0;Siła +1;;
+all;jasny;Napływ kapitału;0;1;0;0;0;1;0;Cena +1;;
+all;ciemny;Margin call;0;0;0;1;0;0;1;;Cena -1;Portfel -1
+all;ciemny;Spadający nóż;0;0;0;0;1;0;1;Cena -1;;
+all;ciemny;Brak popytu;1;0;0;0;0;0;1;Siła -1;;
+all;ciemny;Fałszywe odbicie;1;0;0;0;0;0;1;;Cena +1;Portfel -1
+tech;jasny;Cyfrowy entuzjazm;0;1;0;0;0;1;0;Siła +2;;
+tech;jasny;Mania AI;0;0;1;0;0;1;0;Cena +2;;
+tech;ciemny;Bańka tech pęka;0;0;1;0;0;0;1;;Cena -2;Portfel -1
+tech;ciemny;Słabnący entuzjazm;0;0;0;1;0;0;1;Siła -2;;
+finanse;jasny;Tanie finansowanie;0;1;0;0;0;1;0;Siła +2;;
+finanse;ciemny;Szerokie spready;0;0;1;0;0;0;1;Cena -2;;
+finanse;ciemny;Kryzys zaufania;0;0;1;0;0;0;1;;Cena -2;Portfel -1
+surowce;jasny;Rajd surowcowy;0;1;0;0;0;1;0;Cena +1;;
+surowce;jasny;Łapanie dna na surowcach;1;0;0;0;0;1;0;;Siła +1;Cena +1
+surowce;ciemny;Nadpodaż surowców;0;0;1;0;0;0;1;Cena -1;;
+surowce;ciemny;Kapitulacja na surowcach;1;0;0;0;0;0;1;;Cena -1;Portfel -1
+przemysl;jasny;Boom zamówień;0;1;0;0;0;1;0;Siła +2;;
+przemysl;jasny;Boom inwestycyjny;0;1;0;0;0;1;0;Cena +1;;
+przemysl;ciemny;Zakłócenia dostaw;0;0;1;0;0;0;1;;Siła -1;Portfel -1
+przemysl;ciemny;Wyprzedaż przemysłu;1;0;0;0;0;0;1;Cena -1;;
