@@ -1,0 +1,9 @@
+Plansza	Klimat	Plus	Minus
+Sprzedawca Marzeń	Żyje z gorących sektorów i opowieści o przyszłości.	Za każdą sprzedaną pozycję z sektora o cenie 7–9 dostajesz +1 punkt.	Raz na rundę: jeśli sektor o cenie 7–9, w którym masz pozycję, zajmie 4. miejsce, pogorsz 1 klienta.
+Łowca Kryzysów	Zarabia, gdy inni uciekają z rynku.	Raz na rundę: jeśli użyjesz Siej panikę i wskazany sektor skończy 3. lub 4., dostajesz +1 punkt.	Startowe ograniczenie: zaczynasz z 2 klientami zamiast 3.
+Stary Bankier	Gra w stabilne, nudne sektory i unika skrajnego ryzyka.	Za każdą sprzedaną pozycję z sektora o cenie 4–6 dostajesz +1 punkt.	Stałe ograniczenie: masz tylko 3 sloty portfela zamiast 4.
+Łowca Liderów	Poluje tylko na najmocniejsze sektory.	Za każdą sprzedaną pozycję z sektora na 1. miejscu dostajesz +1 punkt.	Stałe ograniczenie: nie możesz sprzedawać pozycji z sektorów na 3. ani 4. miejscu.
+Lobbysta Rynku	Wpływa na rynek mocniej niż inni.	Raz na rundę: gdy używasz Pompuj narrację, możesz dać sektorowi +2 siły zamiast +1.	Za każdym razem, gdy użyjesz pompowania za +2, pogorsz 1 klienta.
+Cichy Inwestor	Rozkłada ryzyko i zarabia spokojnie, bez wielkich zakładów.	Raz na rundę: gdy sprzedajesz, dostajesz +1 punkt, jeśli po sprzedaży nadal masz pozycje w co najmniej 3 sektorach.	Stałe ograniczenie: nie możesz mieć więcej niż 2 pozycje w jednym sektorze.
+Łowca Okazji	Kupuje to, czego inni nie chcą.	Za każdą sprzedaną pozycję z sektora o cenie 1–3 dostajesz +1 punkt.	Stałe ograniczenie: nie możesz kupować sektorów o cenie 7–9.
+Ekspert Branżowy	Zna jeden sektor lepiej niż cały rynek.	Stały efekt: masz 5 slotów portfela zamiast 4.	Raz na rundę: jeśli sektor, w którym masz najwięcej pozycji, zajmie 4. miejsce, pogorsz 1 klienta.

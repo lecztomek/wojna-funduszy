@@ -1,0 +1,158 @@
+{
+  "canvas": [1400, 1400],
+
+  "type_key": "FunduszKod",
+  "theme_key": "Motyw",
+  "theme_default": "ciemny",
+
+  "type_map": {
+    "sprzedawca": ["sprzedawca"],
+    "lowca_kryzysow": ["lowca_kryzysow"],
+    "bankier": ["bankier"],
+    "follower_trendu": ["follower_trendu"],
+    "lobbysta": ["lobbysta"],
+    "cichy": ["cichy"],
+    "spekulant": ["spekulant"],
+    "ekspert": ["ekspert"]
+  },
+
+  "backgrounds": {
+    "sprzedawca": "fundusze/template_sprzedawca.png",
+    "lowca_kryzysow": "fundusze/template_lowca_kryzysow.png",
+    "bankier": "fundusze/template_bankier.png",
+    "follower_trendu": "fundusze/template_follower_trendu.png",
+    "lobbysta": "fundusze/template_lobbysta.png",
+    "cichy": "fundusze/template_cichy.png",
+    "spekulant": "fundusze/template_spekulant.png",
+    "ekspert": "fundusze/template_ekspert.png"
+  },
+
+  "texts": [
+    {
+      "key": "Nazwa",
+      "xy": [120, 45],
+      "max_width": 1160,
+      "max_height": 150,
+      "max_lines": 2,
+      "align": "center",
+      "valign": "middle",
+      "font": "/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf",
+      "size": 82,
+      "color": {
+        "ciemny": "#FFFFFF",
+        "jasny": "#FFFFFF"
+      },
+      "stroke": 7,
+      "stroke_color": {
+        "ciemny": "#000000",
+        "jasny": "#000000"
+      },
+      "line_height": 84
+    },
+    {
+      "key": "Klimat",
+      "xy": [120, 145],
+      "max_width": 1160,
+      "max_height": 150,
+      "max_lines": 3,
+      "align": "center",
+      "valign": "middle",
+      "font": "/usr/share/fonts/truetype/ubuntu/Ubuntu-MI.ttf",
+      "size": 40,
+      "color": {
+        "ciemny": "#B8B8B8",
+        "jasny": "#B8B8B8"
+      },
+      "stroke": 4,
+      "stroke_color": {
+        "ciemny": "#000000",
+        "jasny": "#000000"
+      },
+      "line_height": 44
+    },
+    {
+      "key": "Plus",
+      "xy": [745, 425],
+      "max_width": 560,
+      "max_height": 250,
+      "max_lines": 5,
+      "align": "left",
+      "valign": "middle",
+      "font": "/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf",
+      "size": 42,
+      "color": {
+        "ciemny": "#FFFFFF",
+        "jasny": "#FFFFFF"
+      },
+      "stroke": 4,
+      "stroke_color": {
+        "ciemny": "#000000",
+        "jasny": "#000000"
+      },
+      "line_height": 48
+    },
+    {
+      "key": "Minus",
+      "xy": [745, 820],
+      "max_width": 560,
+      "max_height": 250,
+      "max_lines": 5,
+      "align": "left",
+      "valign": "middle",
+      "font": "/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf",
+      "size": 42,
+      "color": {
+        "ciemny": "#FFFFFF",
+        "jasny": "#FFFFFF"
+      },
+      "stroke": 4,
+      "stroke_color": {
+        "ciemny": "#000000",
+        "jasny": "#000000"
+      },
+      "line_height": 48
+    },
+    {
+      "key": "Sloty",
+      "xy": [450, 1200],
+      "max_width": 120,
+      "max_height": 100,
+      "max_lines": 1,
+      "align": "left",
+      "valign": "middle",
+      "font": "/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf",
+      "size": 120,
+      "color": {
+        "ciemny": "#FFFFFF",
+        "jasny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "ciemny": "#000000",
+        "jasny": "#000000"
+      },
+      "line_height": 120
+    },
+    {
+      "key": "Klienci",
+      "xy": [1080, 1200],
+      "max_width": 120,
+      "max_height": 100,
+      "max_lines": 1,
+      "align": "left",
+      "valign": "middle",
+      "font": "/usr/share/fonts/truetype/ubuntu/Ubuntu-M.ttf",
+      "size": 120,
+      "color": {
+        "ciemny": "#FFFFFF",
+        "jasny": "#FFFFFF"
+      },
+      "stroke": 6,
+      "stroke_color": {
+        "ciemny": "#000000",
+        "jasny": "#000000"
+      },
+      "line_height": 120
+    }
+  ]
+}
