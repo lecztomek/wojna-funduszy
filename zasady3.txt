@@ -1,0 +1,263 @@
+Pewnie — poniżej **nowy zestaw zasad w punktach**, już pod aktualną wersję z kratką **ranking × cena**, akcjami rozpatrywanymi od razu i sprzedażą po różnicy cen.
+
+# Zasady — aktualna wersja
+
+## 1. Rynek
+
+1. Na planszy jest kratka **ranking × cena**.
+2. Kolumny pokazują **cenę sektora** od 1 do 9.
+3. Rzędy pokazują **ranking sektora**:
+
+   * 1. miejsce
+   * 2. miejsce
+   * 3. miejsce
+   * 4. miejsce
+4. Każdy sektor ma jeden znacznik na kratce:
+
+   * Technologie
+   * Finanse
+   * Surowce
+   * Przemysł
+5. Pozycja znacznika pokazuje jednocześnie:
+
+   * aktualną cenę sektora,
+   * aktualne miejsce sektora w rankingu.
+6. Ranking nie resetuje się między rundami.
+
+---
+
+## 2. Strefy cen
+
+1. Cena sektora mieści się w zakresie **1–9**.
+2. Strefy cen:
+
+   * **1–3**: tanio / słabo
+   * **4–6**: stabilnie
+   * **7–9**: przegrzanie
+3. Strefy są używane przez wydarzenia i efekty funduszy.
+
+---
+
+## 3. Gracze
+
+1. Każdy gracz ma:
+
+   * planszę funduszu,
+   * sloty portfela,
+   * klientów,
+   * pion na torze punktów.
+2. Plansza funduszu określa:
+
+   * liczbę slotów portfela,
+   * limit klientów,
+   * bonus,
+   * ograniczenie / karę.
+3. Portfel gracza zawiera kupione pozycje sektorów.
+4. Każda pozycja pamięta:
+
+   * sektor,
+   * cenę kupna.
+
+---
+
+## 4. Wydarzenia
+
+1. Na torze wydarzeń są zawsze **2 odkryte wydarzenia**:
+
+   * wydarzenie bieżące,
+   * wydarzenie następne.
+2. Wydarzenie bieżące jest znane od początku rundy.
+3. Wydarzenie bieżące rozpatruje się **po akcjach graczy**.
+4. Po rozpatrzeniu wydarzenia i zakończeniu rundy:
+
+   * wydarzenie następne staje się bieżącym,
+   * odkrywa się nowe wydarzenie następne.
+5. Wydarzenia mogą wpływać na:
+
+   * cenę sektora,
+   * ranking sektora,
+   * portfele graczy,
+   * klientów,
+   * zasady sprzedaży.
+
+---
+
+## 5. Kolejność rundy
+
+1. Na torze są 2 odkryte wydarzenia: bieżące i następne.
+2. Gracze wykonują 1. akcję od pierwszego gracza.
+3. Gracze wykonują 2. akcję w odwrotnej kolejności.
+4. Rozpatrz bieżące wydarzenie.
+5. Zmień ceny według rankingu.
+6. Przesuń wydarzenia.
+7. Przekaż znacznik pierwszego gracza.
+
+Przykład dla 3 graczy:
+
+```text
+A → B → C → C → B → A
+```
+
+Przykład dla 4 graczy:
+
+```text
+A → B → C → D → D → C → B → A
+```
+
+---
+
+## 6. Akcje
+
+Każda akcja jest rozpatrywana **od razu**, w momencie wykonania.
+
+### Kup
+
+1. Wybierz 1 sektor.
+2. Kup 1 pozycję tego sektora po jego aktualnej cenie.
+3. Weź bloczek / znacznik sektora i zapisz cenę kupna.
+4. Pozycja zajmuje 1 slot portfela.
+5. Nie możesz kupić, jeśli nie masz wolnego slotu.
+
+### Sprzedaj
+
+1. Wybierz 1 swoją pozycję w portfelu.
+2. Sprzedaj ją od razu.
+3. Oblicz wynik sprzedaży:
+
+```text
+aktualna cena sektora - cena kupna = zysk / strata
+```
+
+4. Zysk można zamienić na punkty przez klientów.
+5. Po sprzedaży usuń pozycję z portfela i oddaj bloczek sektora do puli.
+
+### Pompuj narrację
+
+1. Wybierz 1 sektor.
+2. Przesuń go o 1 miejsce w górę rankingu.
+3. Jeśli sektor jest już na 1. miejscu, akcja nie przesuwa go wyżej.
+
+### Siej panikę
+
+1. Wybierz 1 sektor.
+2. Przesuń go o 1 miejsce w dół rankingu.
+3. Jeśli sektor jest już na 4. miejscu, akcja nie przesuwa go niżej.
+
+### Uspokój klienta
+
+1. Zmień 1 swojego niezadowolonego klienta w zadowolonego.
+2. Jeśli nie masz niezadowolonego klienta, akcja nie daje efektu.
+
+### Podbierz klienta
+
+1. Wybierz przeciwnika.
+2. Zabierz mu 1 niezadowolonego klienta.
+3. Możesz dzięki temu przekroczyć swój limit klientów.
+4. Jeśli przeciwnik nie ma niezadowolonego klienta, akcja nie daje efektu.
+
+### Pozyskaj klienta
+
+1. Zyskaj 1 klienta.
+2. Możesz wykonać tę akcję tylko, jeśli masz mniej klientów niż limit z planszy funduszu.
+3. Ta akcja nie pozwala przekroczyć limitu klientów.
+
+### Pass
+
+1. Brak efektu.
+
+---
+
+## 7. Przesuwanie sektorów w rankingu
+
+1. Efekty zmieniające ranking przesuwają sektor w górę albo w dół.
+2. Jeśli sektor przesuwa się na zajęte miejsce, zamienia się miejscami z sektorem, który tam stoi.
+3. W każdym rzędzie rankingu może być tylko jeden sektor.
+4. Ranking nie resetuje się między rundami.
+
+Przykład:
+
+```text
+1. Technologie
+2. Finanse
+3. Surowce
+4. Przemysł
+```
+
+Gracz używa **Pompuj narrację: Surowce**.
+
+Nowy ranking:
+
+```text
+1. Technologie
+2. Surowce
+3. Finanse
+4. Przemysł
+```
+
+---
+
+## 8. Zmiana cen po rankingu
+
+Po rozpatrzeniu wydarzenia zmień ceny sektorów według rankingu:
+
+1. Sektor na 1. miejscu: **cena +1**
+2. Sektory na 2.–3. miejscu: **bez zmian**
+3. Sektor na 4. miejscu: **cena -1**
+4. Cena nie może spaść poniżej 1 ani wzrosnąć powyżej 9.
+
+---
+
+## 9. Klienci i monetyzacja
+
+1. Klienci służą do zamiany zysku ze sprzedaży na punkty zwycięstwa.
+2. Zadowolony klient może dać **1 punkt**.
+3. Zadowolony klient może dać **2 punkty**, ale wtedy staje się niezadowolony.
+4. Niezadowolony klient daje **1 punkt**.
+5. Gracz nie może zdobyć więcej punktów ze sprzedaży niż wynosi zysk ze sprzedawanej pozycji.
+6. Jeśli sprzedaż daje wynik 0, gracz nie zdobywa punktów.
+7. Jeśli sprzedaż daje stratę, gracz nie traci punktów, ale pogarsza 1 klienta.
+8. Jeśli gracz ma stratę i nie ma klienta do pogorszenia, traci 1 punkt.
+
+Przykład:
+
+```text
+Technologie kupione po 5.
+Aktualna cena Technologii: 8.
+Zysk: 3.
+```
+
+Gracz może zdobyć maksymalnie 3 punkty, jeśli ma odpowiednich klientów.
+
+---
+
+## 10. Plansze funduszy
+
+1. Każdy gracz wybiera / otrzymuje 1 planszę funduszu na początku gry.
+2. Plansza funduszu działa przez całą grę.
+3. Każda plansza ma:
+
+   * bonus,
+   * ograniczenie,
+   * liczbę slotów,
+   * limit klientów.
+4. Bonusy funduszy mogą nagradzać różne style gry:
+
+   * sprzedaż drogich sektorów,
+   * sprzedaż stabilnych sektorów,
+   * sprzedaż tanich sektorów,
+   * sprzedaż lidera rankingu,
+   * wpływanie na ranking,
+   * dywersyfikację portfela.
+
+---
+
+## 11. Koniec gry
+
+1. Gra trwa ustaloną liczbę rund.
+2. Po ostatniej rundzie wygrywa gracz z największą liczbą punktów.
+3. Remisy można rozstrzygać według:
+
+   * większej liczby zadowolonych klientów,
+   * większej liczby pozycji w portfelu,
+   * większej sumy aktualnych wartości pozycji.
+
