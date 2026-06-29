@@ -261,3 +261,302 @@ Gracz może zdobyć maksymalnie 3 punkty, jeśli ma odpowiednich klientów.
    * większej liczby pozycji w portfelu,
    * większej sumy aktualnych wartości pozycji.
 
+
+
+
+--------------------------
+# FAQ — rzeczy nieoczywiste
+
+## 1. Czy Kup albo Sprzedaj zmienia ranking sektora?
+
+Nie.
+
+**Kup** i **Sprzedaj** nie przesuwają sektora na kratce ranking × cena.
+
+Ranking zmieniają tylko efekty, które mówią o przesunięciu sektora, np.:
+
+```text
+Pompuj narrację
+Siej panikę
+wydarzenia
+efekty funduszy
+```
+
+---
+
+## 2. Czy Sprzedaj działa od razu?
+
+Tak.
+
+Gdy gracz wykonuje akcję **Sprzedaj**, od razu wybiera pozycje, liczy wynik i zdobywa punkty przez klientów.
+
+Nie czeka się do końca rundy.
+
+---
+
+## 3. Ile pozycji można kupić jedną akcją?
+
+Akcja **Kup** pozwala kupić:
+
+```text
+1 albo 2 pozycje
+```
+
+Muszą być z **jednego wybranego sektora**.
+
+Każda pozycja zajmuje 1 slot portfela i zapamiętuje cenę kupna.
+
+---
+
+## 4. Ile pozycji można sprzedać jedną akcją?
+
+Akcja **Sprzedaj** pozwala sprzedać:
+
+```text
+od 1 do 4 pozycji
+```
+
+Muszą być z **jednego wybranego sektora**.
+
+Każdą pozycję rozlicza się osobno.
+
+---
+
+## 5. Jak liczy się wynik sprzedaży?
+
+Dla każdej sprzedawanej pozycji:
+
+```text
+aktualna cena sektora - cena kupna = wynik sprzedaży
+```
+
+Przykład:
+
+```text
+Technologie kupione po 5.
+Aktualna cena Technologii: 8.
+Wynik sprzedaży: +3.
+```
+
+Gracz może zmonetyzować maksymalnie 3 punkty z tej pozycji.
+
+---
+
+## 6. Czy stratna pozycja daje punkty ujemne?
+
+Nie.
+
+Jeśli wynik sprzedaży jest ujemny, gracz **nie traci punktów za wysokość straty**.
+
+Zamiast tego:
+
+```text
+każda stratna sprzedana pozycja pogarsza 1 klienta
+```
+
+Wielkość straty nie ma znaczenia.
+
+Przykład:
+
+```text
+Kupione po 6, sprzedane po 5 → pogorsz 1 klienta.
+Kupione po 6, sprzedane po 2 → pogorsz 1 klienta.
+Kupione po 9, sprzedane po 1 → pogorsz 1 klienta.
+```
+
+---
+
+## 7. Co jeśli sprzedaję kilka stratnych pozycji?
+
+Każda stratna pozycja pogarsza 1 klienta.
+
+Przykład:
+
+```text
+Sprzedajesz 3 stratne pozycje.
+Pogarszasz 3 klientów.
+```
+
+Jeśli nie masz tylu klientów do pogorszenia, za każdą niepokrytą stratną pozycję tracisz 1 punkt.
+
+---
+
+## 8. Co robi wynik 0 ze sprzedaży?
+
+Nic.
+
+Pozycja sprzedana za 0:
+
+```text
+nie daje punktów
+nie pogarsza klienta
+nie zużywa klienta
+```
+
+Po prostu schodzi z portfela.
+
+---
+
+## 9. Jak działają klienci przy zysku?
+
+Klienci pozwalają zamieniać zysk ze sprzedaży na punkty zwycięstwa.
+
+Podstawowo:
+
+```text
+zadowolony klient = 1 punkt
+zadowolony klient pogorszony = 2 punkty
+niezadowolony klient = 1 punkt
+```
+
+Nie możesz zdobyć więcej punktów niż wynosi zysk ze sprzedaży.
+
+---
+
+## 10. Czy mogę zdobyć więcej punktów niż zysk?
+
+Nie.
+
+Jeśli pozycja ma zysk +2, możesz zdobyć maksymalnie 2 punkty, nawet jeśli masz wielu klientów.
+
+---
+
+## 11. Co oznacza Portfel -1 z wydarzenia?
+
+**Portfel -1** pogarsza pozycje wskazanego sektora w portfelach graczy.
+
+W nowym modelu oznacza to:
+
+```text
+cena kupna tej pozycji +1
+```
+
+Czyli pozycja staje się mniej opłacalna.
+
+---
+
+## 12. Czy Portfel -1 działa na jedną pozycję czy wszystkie?
+
+Na wszystkie pozycje wskazanego sektora.
+
+Przykład:
+
+Gracz ma:
+
+```text
+Technologie kupione po 4
+Technologie kupione po 5
+Finanse kupione po 5
+```
+
+Wydarzenie uderza w Technologie i ma efekt **Portfel -1**.
+
+Po wydarzeniu:
+
+```text
+Technologie kupione po 5
+Technologie kupione po 6
+Finanse kupione po 5
+```
+
+Cena kupna nie może przekroczyć 9.
+
+---
+
+## 13. Czy Portfel -1 zmienia cenę sektora na planszy?
+
+Nie.
+
+**Portfel -1** zmienia tylko cenę kupna pozycji w portfelach graczy.
+
+Nie rusza aktualnej ceny sektora na kratce.
+
+---
+
+## 14. Co się dzieje, gdy sektor przesuwa się w rankingu?
+
+Jeśli sektor przesuwa się na zajęte miejsce, zamienia się miejscami z sektorem, który tam stoi.
+
+Przykład:
+
+```text
+1. Technologie
+2. Finanse
+3. Surowce
+4. Przemysł
+```
+
+Gracz używa **Pompuj narrację: Surowce**.
+
+Nowy ranking:
+
+```text
+1. Technologie
+2. Surowce
+3. Finanse
+4. Przemysł
+```
+
+---
+
+## 15. Czy ranking resetuje się między rundami?
+
+Nie.
+
+Ranking zostaje taki, jaki był na końcu poprzedniej rundy.
+
+Rynek ma pamięć.
+
+---
+
+## 16. Kiedy działa wydarzenie?
+
+Wydarzenie bieżące jest znane od początku rundy, ale rozpatruje się je **po akcjach graczy**.
+
+Czyli gracze mogą się pod nie ustawić.
+
+---
+
+## 17. Ile wydarzeń jest odkrytych?
+
+Zawsze są odkryte 2 wydarzenia:
+
+```text
+bieżące wydarzenie
+następne wydarzenie
+```
+
+Po rundzie następne wydarzenie staje się bieżącym i odkrywa się nowe następne wydarzenie.
+
+---
+
+## 18. Kiedy zmieniają się ceny sektorów?
+
+Ceny zmieniają się po rozpatrzeniu wydarzenia, według aktualnego rankingu:
+
+```text
+1. miejsce: cena +1
+2.–3. miejsce: bez zmian
+4. miejsce: cena -1
+```
+
+Cena zawsze zostaje w zakresie 1–9.
+
+---
+
+## 19. Czy można przekroczyć limit klientów?
+
+Normalnie nie.
+
+Akcja **Pozyskaj klienta** działa tylko, jeśli masz mniej klientów niż limit z planszy funduszu.
+
+Ale **Podbierz klienta** może pozwolić wyjść ponad limit, bo przejmujesz klienta od innego gracza.
+
+---
+
+## 20. Czy można kupić, jeśli nie mam wolnego slotu?
+
+Nie.
+
+Każda pozycja zajmuje 1 slot portfela. Jeśli nie masz wolnego slotu, nie możesz kupić kolejnej pozycji.
+
